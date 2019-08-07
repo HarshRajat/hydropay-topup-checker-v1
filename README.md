@@ -1,6 +1,25 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Hydropay Manual Topup checker (To Install)
+
+In the project directory, run "npm install"
+
+## Hydropay Manual Topup checker (How to run)
+
+- In the project directory, type "npm start"
+- Page should open on localhost:3000
+- Copy and paste all the walletss which you want to check to src/wallets.txt
+- Make sure metamask is intalled and running
+- Open chrome console (right click, inspect element > console)
+- Refresh and Click load wallets
+- Wallets should be loaded, click Check xxx Wallets!
+- The script will start the check and will show all wallets that are loaded with more than 0 hydro
+- Insufficient balance means they need to be entered into the checks but will not be refilled.
+- Valid Topup means they require topup to be iniaitiated.
+
+
+
+## Available Scripts | Guide for React Development (Ignore)
 
 In the project directory, you can run:
 
